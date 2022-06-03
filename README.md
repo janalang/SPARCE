@@ -1,6 +1,8 @@
 # SPARCE
 
-Implementation of the SPARCE framework which generates SPARse Counterfactual Explanations for multivariate time series. The architecture was introduced in: Generating Sparse Counterfactual Explanations For Multivariate Time Series. Jana Lang, Martin Giese, Winfried Ilg, Sebastian Otte.
+Implementation of the SPARCE framework which generates SPARse Counterfactual Explanations for multivariate time series. The architecture was introduced in: 
+
+Generating Sparse Counterfactual Explanations For Multivariate Time Series. Jana Lang, Martin Giese, Winfried Ilg and Sebastian Otte. arXiv preprint arXiv:2206.00931, 2022.
 
 ## Abstract
 
@@ -8,13 +10,13 @@ Since neural networks play an increasingly important role in critical sectors, e
 
 ## Prerequisites
 
-Python
-PyTorch
-NumPy
-Matplotlib
-Argparse
-Datetime
-Pandas
+- Python
+- PyTorch
+- NumPy
+- Matplotlib
+- Argparse
+- Datetime
+- Pandas
 
 ## Folder Structure
 
@@ -32,6 +34,21 @@ In the paper, we benchmark our approach on a proprietary clinical dataset, as we
 ## Documentation
 
 Sphinx documentation for all modules can be found under docs/build/index.html.
+
+## Usage
+
+If you use our approach, please cite the following paper:
+
+@article{lang2022generating,
+  title={Generating Sparse Counterfactual Explanations For Multivariate Time Series},
+  author={Lang, Jana and Giese, Martin and Ilg, Winfried and Otte, Sebastian},
+  journal={arXiv preprint arXiv:2206.00931},
+  year={2022}
+}
+
+
+
+
 
 
 
